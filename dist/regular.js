@@ -1,4 +1,4 @@
-/**
+de/**
 @author	leeluolee
 @version	0.4.3
 @homepage	http://regularjs.github.io
@@ -424,7 +424,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * @return {[type]}
 	   */
 	  $compile: function(ast, options){
-	  	debugger
 	    options = options || {};
 	    if(typeof ast === 'string'){
 	      ast = new Parser(ast).parse()
